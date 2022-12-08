@@ -1,6 +1,5 @@
 class Event
-  attr_accessor :id, :date, :priority
-  attr_reader :periodical, :period
+  attr_accessor :id, :date, :priority, :periodical, :period
 
   def initialize(id, date, priority)
     @id = id
